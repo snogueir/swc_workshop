@@ -1,6 +1,6 @@
 # this is a script of SCW
 Date January 18
-
+Sarah Nogueira
 
 age <- c(1,3,5,7,9)
 #these are the ages of the people in the family
@@ -35,3 +35,4 @@ ggplot(data=gapminder, aes (x=year, y=lifeExp, color=continent))+ geom_line()+ g
 
 ggplot(data=gapminder, aes (x=year, y=lifeExp, by=country,color=continent))+ geom_point()
 
+ggplot(data = gapminder, aes(x = year, y = lifeExp, color = continent)) + geom_point()
