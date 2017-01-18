@@ -35,4 +35,7 @@ ggplot(data=gapminder, aes (x=year, y=lifeExp, color=continent))+ geom_line()+ g
 
 ggplot(data=gapminder, aes (x=year, y=lifeExp, by=country,color=continent))+ geom_point()
 
-ggplot(data = gapminder, aes(x = year, y = lifeExp, color = continent)) + geom_point()
+ggplot(data = gapminder, aes(x = year, y = lifeExp, color = continent)) + geom_point() +facet_grid(.~continent)
+ 
+#save plot
+ggsave(filename="year_vs_lifexp_percont.png", width= 5, height= 4, units = "in")
