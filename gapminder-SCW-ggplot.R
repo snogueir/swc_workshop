@@ -1,7 +1,7 @@
 # this is a script of SCW
-Date January 18
-Sarah Nogueira
-
+#Date January 18
+#Sarah Nogueira
+#Workshop modification
 age <- c(1,3,5,7,9)
 #these are the ages of the people in the family
 names (age) <- c("Martha", "Peter", "Paul", "Mary", "Ruth")
